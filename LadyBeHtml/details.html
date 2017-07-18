@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" sizes="16x16" href="images/icons/favicon.ico">
+        <link rel="apple-touch-icon" sizes="57x57" href="images/icons/favicon-57.png">
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/icons/favicon-57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/icons/favicon-72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/icons/favicon-114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="images/icons/favicon-120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="images/icons/favicon-144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="images/icons/favicon-152.png">
+        <title>Parashop mini website</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-select.css" rel="stylesheet">
+        <link href="css/bootstrap-multiselect.css" rel="stylesheet">
+        <link href="css/owl.carousel.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400|Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Philosopher:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oregano' rel='stylesheet' type='text/css'>
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>  
+                        <script src="js/html5shiv.min.js"></script> 
+                        <script src="js/respond.min.js"></script> 
+        <![endif]-->
+    </head>
+    <body>
+
+        <!-- Start html -->
+        <div class="wrapper">
+
+            <!-- Start header panel -->
+            <header>
+                <div class="login-wrapper">
+                    <div class="container">
+                        <ul class="login-area">
+                            <li><a href="cart.html"><i class="fa fa-shopping-bag"></i><span class="cart-active-item">10</span><span class="hidden-xs">Mon Panier</span></a></li>
+                            <li class="custom-register"><a href="registration.html"><i class="fa fa-lock"></i><span class="hidden-xs">Créer un Compte</span></a></li>
+                            <li><a href="login.html"><i class="fa fa-sign-in"></i><span class="hidden-xs">Se Connecter</span></a></li>
+                            <li><a href="dashboard.html"><i class="fa fa-user"></i><span class="hidden-xs">Mon Compte</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <nav class="navbar navbar-inverse">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="index.html">
+                                <img alt="Parashop" src="images/logo.png">
+                            </a>
+                        </div>
+                        <div id="navbar" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="index.html">Accueil</a></li>
+                                <li><a href="concept.html">Concept</a></li>
+                                <li class="dropdown">
+                                    <a id="menu" href="#" data-toggle="dropdown" class="dropdown-toggle" role="button" aria-haspopup="true">Lady Be<span class="caret"></span></a>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu">
+                                        <li role="presentation"><a role="menuitem" href="lady_soins.html">Lady Soins</a></li>
+                                        <li role="presentation"><a role="menuitem" href="lady_naturelle.html">Lady Naturelle</a></li>
+                                        <li role="presentation"><a role="menuitem" href="lady_new_wave.html">Lady New Wave</a></li>
+                                        <li role="presentation"><a role="menuitem" href="lady_free.html">Lady Free</a></li>
+                                        <li role="presentation"><a role="menuitem" href="lady_be_1_month.html">Offre d’essai d’un mois</a></li>
+                                        <li role="presentation"><a role="menuitem" href="lady_be_12_months.html">Abonnez-vous pour un an et recevez un mois gratuit</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="complementary.html">Produits complémentaires</a></li>	                
+                                <li><a href="advice.html">Conseils</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav><!-- End navbar -->
+            </header><!-- End panel header --> 
+
+            <!-- Start banner panel -->
+            <section class="banner-area clearfix">
+                <img class="img-responsive" src="images/banner-12.jpg" alt="">	
+                <div class="carousel-caption">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+            </section><!-- End banner panel --> 
+
+            <!-- Start mon-panier -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html">Accueil »</a></li>
+                            <li class="active">Mon panier</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 cart-page-table">
+                        <h1>Mes coordonnées</h1>
+                        <div class="steps-wrapper">
+                            <div class="row text-center">
+                                <div class="steps">
+                                    <div class="service active">
+                                        <i class="fa fa-shopping-bag"></i>
+                                        <h5>Mon panier</h5>
+                                    </div>
+                                    <div class="hr">
+                                        <div class="line"></div>
+                                    </div>
+                                    <div class="service active">
+                                        <i class="fa fa-user"></i>
+                                        <h5>Mes coordonnées</h5>
+                                    </div>
+                                    <div class="hr">
+                                        <div class="line"></div>
+                                    </div>
+                                    <div class="service">
+                                        <i class="fa fa-check"></i>
+                                        <h5>Je confirme</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <h1>Mes Informations personnelles</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nis.</p>
+                                <form role="form">
+                                    <div class="row">
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputFirstname">
+                                                Prénom
+                                            </label>
+                                            <input type="text" class="form-control" id="inputFirstname" placeholder="">
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputName">
+                                                Nom
+                                            </label>
+                                            <input type="text" class="form-control" id="inputName" placeholder="">
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputLoyaltyCard">
+                                                Numéro carte de fidélité 
+                                            </label>
+                                            <input type="text" class="form-control" id="inputLoyaltyCard" placeholder="">
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputTel">
+                                                Numéro de téléphone
+                                            </label>
+                                            <input type="tel" class="form-control" id="inputTel" placeholder="">
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <input type="submit" class="btn-communication btn-communication-sm" value="Actualiser">
+                                        </div>
+                                    </div>
+                                </form>
+                                <h1>Ajoutez une nouvelle adresse</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <form role="form">
+                                    <div class="form-group clearfix">
+                                        <div class="row">
+                                            <label class="col-sm-12 control-label" for="inputAddressType">
+                                                Type d'adresse
+                                            </label>
+                                            <div class="col-sm-12">
+                                                <div class="pull-left">
+                                                    <div class="radio">
+                                                        <input type="radio" checked="" value="option1" id="invoice" name="invoice">
+                                                        <label for="invoice">Facture</label>
+                                                    </div>
+                                                </div>
+                                                <div class="pull-left">
+                                                    <div class="radio">
+                                                        <input type="radio" value="option2" id="delivery" name="delivery">
+                                                        <label for="delivery">Livraison</label>
+                                                    </div>
+                                                </div>
+                                                <div class="pull-left">
+                                                    <div class="radio">
+                                                        <input type="radio" value="option2" id="delivery" name="delivery">
+                                                        <label for="delivery">Les deux</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- End form-group -->
+                                    <div class="row">
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputName">
+                                                Nom
+                                            </label>
+                                            <input type="text" class="form-control" id="inputName" placeholder="">
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">		
+                                            <label for="inputCountry">
+                                                Pays
+                                            </label>
+                                            <div class="custom-select">
+                                                <select class="selectpicker">
+                                                    <option>Choisir pays</option>
+                                                    <option>pays 1</option>
+                                                    <option>pays 2</option>
+                                                </select>
+                                            </div>									
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">		
+                                            <label for="inputCity">
+                                                Ville
+                                            </label>
+                                            <div class="custom-select">
+                                                <select class="selectpicker">
+                                                    <option>Choisir ville</option>
+                                                    <option>ville 1</option>
+                                                    <option>ville 2</option>
+                                                </select>	
+                                            </div>									
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">	
+                                            <label for="inputCity">
+                                                Région
+                                            </label>
+                                            <div class="custom-select">
+                                                <select class="selectpicker">
+                                                    <option>Choisir région</option>
+                                                    <option>région 1</option>
+                                                    <option>région 2</option>
+                                                </select>
+                                            </div>									
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputPostalCode">
+                                                Code postal
+                                            </label>
+                                            <input type="text" class="form-control" id="inputPostalCode" placeholder="">
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputTelephone">
+                                                Numéro téléphone
+                                            </label>	
+                                            <div class="row">
+                                                <div class="col-md-4 col-sm-5 select-wrapper">	
+                                                    <div class="custom-select">										
+                                                        <select class="selectpicker">
+                                                            <option>91</option>
+                                                            <option>92</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-8 col-sm-7">
+                                                    <input type="text" class="form-control" id="inputPhone" placeholder="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputInterphoneName">
+                                                Interphone Name
+                                            </label>
+                                            <input type="text" class="form-control" id="inputInterphoneName" placeholder="">
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputInterphoneNumber">
+                                                Numéro interphone
+                                            </label>
+                                            <input type="text" class="form-control" id="inputInterphoneNumber" placeholder="">
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputApartmentName">
+                                                Nom appartement
+                                            </label>
+                                            <input type="text" class="form-control" id="inputApartmentName" placeholder="">
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputApartmentNumber">
+                                                Numéro appartement 
+                                            </label>
+                                            <input type="text" class="form-control" id="inputApartmentNumber" placeholder="">
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputFloorNumber">
+                                                Numéro étage 
+                                            </label>
+                                            <input type="text" class="form-control" id="inputFloorNumber" placeholder="">
+                                        </div>
+                                        <div class="form-group col-sm-12">
+                                            <label for="inputAddress">Adresse</label>
+                                            <textarea class="form-control" id="inputAddress"></textarea>
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <input type="submit" class="btn-communication btn-communication-sm" value="Enregistrer l’adresse">
+                                        </div>
+                                    </div>
+                                </form>
+                                <h1>Ajouter une nouvelle carte</h1>
+                                <form role="form">
+                                    <div class="row">
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputCardNumber">
+                                                Numéro de la carte
+                                            </label>
+                                            <input type="text" class="form-control" id="inputCardNumber" placeholder="">
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputCardName">
+                                                Nom sur la carte
+                                            </label>
+                                            <input type="text" class="form-control" id="inputCardName" placeholder="">
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputLoyaltyCard">
+                                                Numéro carte de fidélité 
+                                            </label>
+                                            <input type="text" class="form-control" id="inputLoyaltyCard" placeholder="">									
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputLoyaltyCard">
+                                                Date de fin de validité
+                                            </label>
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="custom-select small-select pull-left">									
+                                                        <select class="selectpicker">
+                                                            <option>Mois</option>
+                                                            <option>01</option>
+                                                            <option>02</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="custom-select small-select pull-right">		
+                                                        <select class="selectpicker">
+                                                            <option>Année</option>
+                                                            <option>1988</option>
+                                                            <option>1989</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-md-4 col-sm-6">
+                                            <label for="inputCardCVV">
+                                                CVV Code
+                                            </label>
+                                            <input type="tel" autocomplete="off" class="form-control" id="inputCardCVV" placeholder="" maxlength="3">
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <input type="submit" class="btn-communication btn-communication-sm" value="Ajouter carte neuve">
+                                            <div class="btn-validate-wrapper">
+                                                <a href="confirm.html" class="btn btn-validate pull-right">JE VALIDE</a>
+                                            </div>
+                                        </div>
+                                    </div><!-- End row -->
+                                </form>
+                            </div><!-- End col -->
+                            <div class="col-sm-3">
+                            </div>
+                        </div><!-- End row -->
+                    </div><!-- End cart-page-table -->
+                </div><!-- End row -->
+            </div><!-- End mon-panier -->
+
+            <!-- Start footer panel -->
+            <footer>
+                <div class="subscribe-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3 footer-links">
+                                <h4>Lien Rapide</h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="index.html"><i class="fa fa-angle-right"></i>Accueil</a></li>
+                                    <li><a href="lady_be_12_months.html"><i class="fa fa-angle-right"></i>Lady Be</a></li>
+                                    <li><a href="concept.html"><i class="fa fa-angle-right"></i>Concept</a></li>
+                                </ul>
+                            </div><!-- End col -->
+                            <div class="col-sm-3 footer-links">
+                                <h4 class="hidden-xs">&nbsp;</h4>
+                                <ul class="list-unstyled">
+                                    <li><a href="contact.html"><i class="fa fa-angle-right"></i>Contact</a></li>
+                                    <li><a href="terms_and_conditions.html"><i class="fa fa-angle-right"></i>Conditions générales d'utilisation</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-offset-1 col-md-5 col-sm-6 main-newsletter">
+                                <h4>SOUSCRIRE À NOTRE NEWSLETTER</h4>
+                                <div class="newsletter-area clearfix">
+                                    <form role="form" method="post">
+                                        <div class="form-group">
+                                            <input type="email" placeholder="Adresse email" id="exampleInputEmail1" class="form-control">
+                                            <button class="fa fa-plus"></button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="payment-method text-right">
+                                    <p>Nos méthodes de payement</p>
+                                    <ul>
+                                        <li>
+                                            <a class="sprite paypal" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="sprite master-card" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="sprite visa" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="sprite american-express" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="sprite bank-transfer" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="sprite fax" href="#"></a>
+                                        </li>
+                                        <li>
+                                            <a class="sprite money-order" href="#"></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div><!-- End col -->
+                        </div><!-- End row -->
+                    </div><!-- End container -->
+                </div><!-- End subscribe-area -->
+                <div class="copyright">
+                    <div class="container">
+                        <p>&copy; Parashop2016</p>
+                        <div class="newsletter-social">
+                            <p>Suivez-nous</p>
+                            <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+                            <a target="_blank" href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div><!-- End container -->
+                </div><!-- End copyright -->
+            </footer><!-- End footer panel -->
+        </div><!-- End wrapper -->
+
+        <!-- End html --> 
+        <script src="js/jquery.min.js"></script> 
+        <script src="js/bootstrap.min.js"></script> 
+        <script src="js/plugins.js"></script>
+        <script src="js/custom.js"></script> 
+    </body>
+</html>
